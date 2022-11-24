@@ -1,2 +1,2 @@
-# counter
+# Counter
 Counter program
