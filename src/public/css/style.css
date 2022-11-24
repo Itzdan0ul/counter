@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F1F1F1;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+}
+
+@media (max-width: 1280px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1279px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 769px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  body .counter {
+    border-radius: 0.3125em;
+    height: 20rem;
+    width: 20rem;
+  }
+  body .counter-body {
+    height: 16.625rem;
+  }
+  body .counter-button-group {
+    justify-content: center;
+    padding: 0 0 1.25em 0;
+  }
+}
+@media (max-width: 481px) {
+  body {
+    font-size: 11px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media (max-width: 0px) {
+  body {
+    font-size: 9px;
+  }
+}
+.main {
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  place-items: center;
+}
+
+.counter {
+  background: #fff;
+  border-radius: 0.625em;
+  height: 25em;
+  width: 50em;
+}
+
+.counter-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  margin: 0 2.5em;
+}
+
+.counter-title {
+  color: #7A7A7A;
+  font-size: 2.125em;
+  margin: 1.25rem 0 0.625rem 0;
+}
+
+.counter-body {
+  display: flex;
+  flex-direction: column;
+  height: 20.125em;
+  justify-content: space-between;
+}
+
+.counter-box {
+  align-items: center;
+  display: flex;
+  height: 14.375em;
+  justify-content: center;
+}
+
+.counter-number {
+  color: #7A7A7A;
+  font-size: 6em;
+  font-weight: 400;
+}
+
+.counter-button-group {
+  display: flex;
+  justify-content: end;
+  gap: 0.625em;
+  padding: 0 1.25em 1.25em 0;
+}
+
+.counter-button {
+  border: 0;
+  border-radius: 0.3125em;
+  cursor: pointer;
+  font-size: 1em;
+  height: 3.125em;
+  outline: 0;
+  width: 12.5em;
+}
+
+.counter-button--increment {
+  background: #629F44;
+  color: #fff;
+}
+
+.counter-button--decrement {
+  background: #DE4848;
+  color: #fff;
+}
+
+.counter-button--increment:hover {
+  box-shadow: 0 0 0 0.2rem rgba(52, 230, 81, 0.502);
+  transition: 0.3s ease;
+}
+
+.counter-button--decrement:hover {
+  box-shadow: 0 0 0 0.2rem rgba(221, 78, 78, 0.502);
+  transition: 0.3s ease;
+}
+
+/*# sourceMappingURL=style.css.map */

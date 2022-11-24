@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+.counter-button--increment {
+  &:hover {
+    box-shadow: 0 0 0 0.20rem rgba(52, 230, 81, 0.502);
+    transition: 0.3s ease;
+  }
+}
+
+.counter-button--decrement {
+  &:hover {
+    box-shadow: 0 0 0 0.20rem rgba(221, 78, 78, 0.502);
+    transition: 0.3s ease;
+  }
+}
